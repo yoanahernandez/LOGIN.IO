@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #10cde6da;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container{
+    background: #058c9eec;
+    padding: 2em;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+
+h2{
+    margin-bottom: 1em;
+    color: #1e1f1fda;
+}
+
+.input-group{
+    text-align: left;
+    margin-bottom: 1em;
+}
+
+.input-group label{
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+.input-group input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(20, 68, 141, 0.63);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #05525cec;
+}
